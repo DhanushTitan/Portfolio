@@ -238,7 +238,7 @@ background-position: left;
     position: absolute; 
     bottom: -100px; 
     right: 180px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .icon_about_me_4{
     background-color: #F90;
@@ -246,7 +246,7 @@ background-position: left;
     width: 50px;
     border-radius: 100px;
     position: absolute; 
-    bottom: -150px; 
+    bottom: -160px; 
     left: 590px;
 }
 
