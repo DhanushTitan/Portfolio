@@ -1,0 +1,491 @@
+.body{
+    background-color: black; 
+    
+}
+/* Navbar Section */
+.navbar_bar{
+    background: linear-gradient(263deg, #00FF0A -40.48%, #F90 100%);
+    height: 80px;
+    width: 100%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    animation: slide 1s ease-in-out infinite alternate;
+}
+.navbar_logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.navbar_brand_logo{
+    text-decoration: none;
+    color: #FFF;
+    font-family: serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+    
+}
+.navbar_link{
+    margin-left: 43%;
+    margin-top: 25px;
+}
+.navbar_link a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+.navbar_link a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+
+}
+/* Banner section  */
+.banner{
+    margin-top: 20px;
+}
+.banner_section{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-right: 320px;
+}
+.iamge_boder{
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.boder{
+    border: 5px solid #00ff2f;
+    border-radius: 2px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    border-bottom-left-radius: 50px;
+ 
+}
+.images{
+    width: 100%;
+    height: inherit;
+    margin-top: -30px;
+    margin-left: -30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+background-position: left;
+    background-color: #cccccc;
+    position: relative; 
+    border-bottom-left-radius: 30px;
+}
+.banner_section_heder{
+    padding-top: 50px;
+    margin-left: 0px;
+    color: #FFF;
+    font-family: serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.developer{
+    color: #00FF0A;
+    font-family: serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+.designer{
+    color: #F90;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+}
+.button{
+    width: 40%;
+    height: 50px;
+    background: linear-gradient(263deg, #00FF0A -40.48%, #F90 100%);
+    border-radius: 10px;
+    color: white;
+    font-family: Jomolhari;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.rectangle_1{
+    background-color: #00FF0A;
+    height: 60px;
+    width: 150px;
+    margin-left: -150px;
+    margin-top: -250px;
+    border-radius: 10px;
+}
+.rectangle_2{
+    background-color: #F90;
+    height: 50px;
+    width: 150px;
+    margin-left: 220px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.icon_banner{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+/* About Me Section */
+.about_me{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about_me_empty{
+    background: linear-gradient(263deg, #00FF0A -40.48%, #F90 100%);
+    height: 400px;
+    width: 60px;
+    border-radius: 5px;
+}
+.about_me_image{
+    height: 350px;
+    width: 300px;
+    background-color: #cccccc;
+    margin-top: 25px;
+    margin-left: -20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url('images/20230914_150245.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.about_me_heading_section{
+    width: fit-content;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.about_me_heading{
+    color: #FFF;
+    font-family: Jomolhari;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about_me_paragraph{
+    color: #FFF;
+    font-family: serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 160% */
+    letter-spacing: 2.5px;
+    margin-top: 10px;
+}
+.button_about_me{
+    height: 40px;
+    width: 200px;
+    background: linear-gradient(263deg, #00FF0A -40.48%, #F90 100%);
+    color: #FFF;
+    font-family: serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.about_me_icon{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.icon_about_me_1{
+    background-color: #F90;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    position: absolute;
+    left: 500px;
+    margin-top: -20px;
+}
+
+.icon_about_me_2{
+    background-color: #F90;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    position: absolute; 
+    right: 350px;
+    
+}
+.icon_about_me_3{
+    background-color: #F90;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    position: absolute; 
+    bottom: -100px; 
+    right: 180px;
+    margin-bottom: 50px;
+}
+.icon_about_me_4{
+    background-color: #F90;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    position: absolute; 
+    bottom: -150px; 
+    left: 590px;
+}
+
+/* what I use  */
+.what_use{
+    background-color: #00FF0A;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.what_use_head{
+    color: #FFF;
+    font-family: Kameron;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 8px;
+}
+.what_use_point{
+    margin-top: 30px;
+}
+
+.what_use_points{
+    height: 30px;
+    width: 30px;
+    border-radius: 70px;
+    background: linear-gradient(232deg, #00FF0A 13.88%, #98C204 53.56%, #F90 88.21%);
+    margin-top: 50px;
+}
+.what_use_points_para{
+    color: #FFF;
+    font-family: serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 1000%;
+}
+.what_i_use_image{
+    height: 500px;
+    width: 600px;
+    margin-left: 60%;
+    border-radius: 20px;
+ 
+}
+
+/* Recent work */
+.Recent_work{
+    background-color: #F90;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+}
+.recent_work_project_1{
+    background-color: grey;
+    margin-top: 20px;
+    height: 500px;
+    width: 250px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-image: url("images/Screenshot\ 2023-10-08\ 135517.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.recent_work_bottom{
+    border-radius: 10px;
+    background: linear-gradient(263deg, #00FF0A -40.48%, #F90 100%);
+    height: 40px;
+    width: 130px;
+    margin-top: 450px;
+    margin-left: -120px; 
+}
+.recent_work_View{
+    color: #FFF;
+    font-family: Jomolhari;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px; 
+}
+.recent_work_project_2{
+    background-color: grey;
+    margin-top: 20px;
+    height: 500px;
+    width: 250px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-image: url("images/Screenshot\ 2023-10-08\ 135340.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+.recent_work_projec_3{
+    background-color: grey;
+    margin-top: 20px;
+    height: 500px;
+    width: 250px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-image: url("images/e4f50ce2a57afba11b9200c5ea4a608e.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* Contact Me  */
+
+.contact_me{
+    width: 1000px;
+    height: 200px;   
+    border-radius: 20px;
+    margin: 50px; 
+    background: linear-gradient(268deg, #00FF0A -7.59%, #F90 87.09%);
+}
+.demo{
+    background-image: url("images/pexels-anete-lusina-16621442.jpg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;   
+
+    border-radius: 10px;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+
+.Contact_me_paragraph{
+    color: #FFF;
+    font-family: Jomolhari;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.Contact_me_button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid #000;
+    background: white;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.Contact_me_image{
+    background-image: url("images/computer.png");
+    height: 500px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -300px;
+    margin-left: 80px;
+}
+
+/* Footer */
+.footer_section{
+    background: linear-gradient(268deg, #00FF0A -7.59%, #F90 87.09%);
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer_section_header{
+    color: #FFF;
+    font-family: serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.footer_section_button{
+    width: 300;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: white;
+    margin-top: 20px;
+    margin-left: 36%;
+    font-family: serif;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.footer_section_paragraph{
+    color: #FFF;
+    font-family: serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer_section_card{
+    background-color: #ffffff36;
+    height: 50px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.footer_section_icon{
+    margin-top: 10px;
+    margin-left: 42%;
+    
+}
+.icon{
+    margin-left: 20px;
+}
+.icon_1{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+
+
